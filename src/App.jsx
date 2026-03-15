@@ -3,6 +3,7 @@ import './App.css'
 import ToDo from './TodoNew';
 import Actor from './Actor';
 import Developers from './Developers';
+import  Counter  from './Counter';
 
 function App() {
   const actors=['niloy','rahim','karim','jerry','llz'];
@@ -13,6 +14,8 @@ function App() {
   ]
   return (
     <>
+    {/* <Counter></Counter> */}
+<Counter/>
 
     {
       developers.map(developer=> <Developers key={developer.id} developer={developer}></Developers>)

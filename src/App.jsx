@@ -4,6 +4,7 @@ import ToDo from './TodoNew';
 import Actor from './Actor';
 import Developers from './Developers';
 import  Counter  from './Counter';
+import Sports from './Sports';
 
 function App() {
   const actors=['niloy','rahim','karim','jerry','llz'];
@@ -16,6 +17,7 @@ function App() {
     <>
     {/* <Counter></Counter> */}
 <Counter/>
+<Sports></Sports>
 
     {
       developers.map(developer=> <Developers key={developer.id} developer={developer}></Developers>)

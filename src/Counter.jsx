@@ -12,7 +12,7 @@ const Counter=()=>{
 
     const countStyle={
         border: '2px solid gold',
-       'margin-top': '30px'
+       'marginTop': '30px'
     }
     return(
         <div style={countStyle}>
